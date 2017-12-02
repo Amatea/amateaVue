@@ -3,6 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Toolbar from './components/Toolbar.vue'
+import Vuetify from 'vuetify'
+import('../node_modules/vuetify/dist/vuetify.min.css')
+
+Vue.component('app-toolbar', Toolbar)
+
+Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 
