@@ -5,8 +5,8 @@
         <img class="logo" src="http://www.amatea.org/img/logo_amatea.png" alt="logo amatea">
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-items class="hidden-xs-only">
         <v-btn flat>Somos</v-btn>
         <v-btn flat>Servicios</v-btn>
         <v-btn flat>Hacemos</v-btn>
