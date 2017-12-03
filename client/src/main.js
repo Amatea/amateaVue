@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.css'
-import Toolbar from'./components/Toolbar.vue'
+import Toolbar from'./components/Toolbar'
 import colors from 'vuetify/es5/util/colors'
 
 Vue.component('app-toolbar', Toolbar)

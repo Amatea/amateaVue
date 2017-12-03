@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar color="light-green">
+    <v-toolbar color="teal lighten-2">
       <v-toolbar-title>
         <img class="logo" src="http://www.amatea.org/img/logo_amatea.png" alt="logo amatea">
       </v-toolbar-title>
