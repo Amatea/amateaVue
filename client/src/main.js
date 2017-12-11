@@ -12,6 +12,7 @@ import Services from './components/Services'
 import Header from './components/Header'
 import Make from './components/Make'
 import Contact from './components/Contact'
+import SomosHuella from './components/SomosHuella'
 
 Vue.config.productionTip = false
 
@@ -39,6 +40,11 @@ const router = new Router({
       path: '/contact',
       name: 'contact',
       component: Contact
+    },
+    {
+      path: '/somoshuella',
+      name: 'somos',
+      component: SomosHuella
     },
     {
       path: '*',
