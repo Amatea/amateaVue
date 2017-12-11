@@ -2,7 +2,7 @@
   <div>
     <v-toolbar color="teal lighten-2">
       <v-toolbar-title>
-        <img class="logo" src="http://www.amatea.org/img/logo_amatea.png" alt="logo amatea">
+        <img class="logo" src="public/logo.png" alt="logo amatea">
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
@@ -68,8 +68,7 @@
   .logo {
     background-size: 100% auto;
     background-repeat: no-repeat;
-    width: 153px;
-    height: 53px;
+    width: 130px;
   }
 </style>
 
