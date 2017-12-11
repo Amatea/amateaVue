@@ -30,6 +30,11 @@ export default new Router({
       component: Contact
     },
     {
+      path: '/somoshuella',
+      name: 'Somos',
+      component: SomosHuella
+    },
+    {
       path: '*',
       redirect: 'songs'
     }
