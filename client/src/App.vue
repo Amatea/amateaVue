@@ -1,9 +1,13 @@
 <template>
-  <v-app id="app">
-    <app-toolbar></app-toolbar>
-    <router-view></router-view>
-    <app-footer></app-footer>
-  </v-app>
+  <div id="app">
+    <v-app>
+      <app-toolbar></app-toolbar>
+      
+      <router-view></router-view>
+    
+      <app-footer></app-footer>
+    </v-app>
+  </div>
 </template>
 
 <script>

@@ -1,24 +1,34 @@
 import Vue from 'vue'
 // import router from './router'
 import Router from 'vue-router'
-import App from './App.vue'
+// import { sync } from 'vuex-router-sync'
+import App from './App'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.css'
 import Toolbar from'./components/Toolbar'
 import colors from 'vuetify/es5/util/colors'
 import Home from './components/Home'
+import Services from './components/Services'
 import Header from './components/Header'
 import Make from './components/Make'
 import Contact from './components/Contact'
 
+Vue.config.productionTip = false
+
 Vue.use(Router)
 
 const router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/services',
+      name: 'services',
+      component: Services
     },
     {
       path: '/make',
