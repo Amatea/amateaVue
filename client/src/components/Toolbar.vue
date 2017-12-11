@@ -7,9 +7,9 @@
       <v-spacer></v-spacer>
       <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-items class="hidden-xs-only">
-        <v-btn flat>Somos</v-btn>
+        <router-link to="/"><v-btn flat>Somos</v-btn></router-link>
         <v-btn flat>Servicios</v-btn>
-        <v-btn flat>Hacemos</v-btn>
+        <v-btn flat><router-link to="/make"></router-link>Hacemos</v-btn>
         <v-btn flat>Contactenos</v-btn>
       </v-toolbar-items>
     </v-toolbar>
@@ -65,6 +65,9 @@
 </script>
 
 <style lang="scss" scoped>
+  a {
+    text-decoration: none;
+  }
   .logo {
     background-size: 100% auto;
     background-repeat: no-repeat;
