@@ -24,11 +24,16 @@
   .title_head {
     color: #D52AED;
     font-weight: 300;
+    font-size: 2.4em;
   }
   h3 {
     color: #0CB8D1;
     font-weight: 300;
+    font-size: 1.5em;
   }
+    p {
+        font-size: 1.5em;
+    }
   .subtitle {
     color: #0CB8D1;
     font-weight: 300;
