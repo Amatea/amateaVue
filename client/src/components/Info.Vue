@@ -26,8 +26,26 @@
         
       </v-layout>
     </v-container>
+    <div class="news">
+      <h1></h1>
+    </div>
+    <app-somosheader></app-somosheader>
   </div>
 </template>
+
+<script>
+  import somosHeader from './SomosHuella/somosHeader'
+  export default {
+    components : {
+      'app-somosheader' : somosHeader,
+      },
+    data () {
+      return {
+       
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
   h2 {
@@ -48,4 +66,7 @@
     h1 {
       margin: 20px;
     }
+  .news {
+    margin-top: 80px;
+  }
 </style>

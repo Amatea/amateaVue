@@ -1,6 +1,6 @@
 <template>
   <div class="partner">
-    <div class="text-xs-center">
+    <div class="text-xs-center title">
       <h1>Tu tambien puedes hacer parte</h1>
       <p>vincúlate</p>
     </div>
@@ -33,6 +33,12 @@
   }
   .logos {
     margin-top: 70px;
+  }
+
+  .title {
+    color: #21BFD5;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   .recamier {

@@ -55,7 +55,7 @@ const router = new Router({
 
 Vue.use(Vuetify, {
   theme: {
-    primary: '#b0bec5',
+    primary: '#21BFD5',
     secondary: '#b0bec5',
     accent: '#8c9eff',
     error: '#b71c1c'
