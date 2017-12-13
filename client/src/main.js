@@ -12,7 +12,7 @@ import Services from './components/Services'
 import Header from './components/Header'
 import Make from './components/Make'
 import Contact from './components/Contact'
-import SomosHuella from './components/SomosHuella'
+import SomosHuella from './components/SomosHuella/SomosHuella'
 
 Vue.config.productionTip = false
 
@@ -57,7 +57,7 @@ Vue.use(Vuetify, {
   theme: {
     primary: '#21BFD5',
     secondary: '#b0bec5',
-    accent: '#8c9eff',
+    accent: 'white',
     error: '#b71c1c'
   }
 })

@@ -5,12 +5,9 @@
         <img class="logo" src="public/logo.png" alt="logo amatea">
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-items class="hidden-xs-only">
-        <router-link to="/"><v-btn flat>Somos</v-btn></router-link>
-        <v-btn flat>Servicios</v-btn>
-        <v-btn flat><router-link to="/make"></router-link>Hacemos</v-btn>
-        <v-btn flat>Contactenos</v-btn>
+      <v-toolbar-side-icon color="accent" class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-items v-for="item in items" :key="item.title"  class="hidden-xs-only">
+        <v-btn color="accent" :href='item.click' flat>{{ item.title }}</v-btn>
       </v-toolbar-items>
     </v-toolbar>
 
@@ -34,12 +31,12 @@
         </v-list>
         <v-list class="pt-0" dense>
           <v-divider></v-divider>
-          <v-list-tile v-for="item in items" :key="item.title" @click="">
+          <v-list-tile v-for="item in items" :key="item.title" :href='item.click'>
             <v-list-tile-action>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-tile-action>
             <v-list-tile-content>
-              <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+              <v-list-tile-title><a >{{ item.title }}</a></v-list-tile-title>
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
@@ -54,10 +51,11 @@
       return {
        drawer: null,
         items: [
-          { title: 'Somos', icon: 'dashboard' },
-          { title: 'Servicios', icon: 'question_answer' },
-          { title: 'Hacemos', icon: 'question_answer' },
-          { title: 'Contactenos', icon: 'question_answer' }
+          { title: 'Inicio', icon: 'dashboard', click: '/' },
+          { title: 'Somos', icon: 'dashboard', click: '/are' },
+          { title: 'Servicios', icon: 'question_answer', click: '/services' },
+          { title: 'Hacemos', icon: 'question_answer', click: '/make' },
+          { title: 'Contactenos', icon: 'question_answer', click: '/contact' }
          ]
       }
     }
