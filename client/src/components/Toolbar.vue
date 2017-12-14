@@ -5,7 +5,7 @@
         <img class="logo" src="public/logo.png" alt="logo amatea">
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon color="accent" class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-items v-for="item in items" :key="item.title"  class="hidden-xs-only">
         <v-btn color="accent" :href='item.click' flat>{{ item.title }}</v-btn>
       </v-toolbar-items>
@@ -15,14 +15,14 @@
       <v-navigation-drawer
         temporary
         v-model="drawer"
-        light
+        dark
         absolute
       >
         <v-list class="pa-1">
           <v-list-tile avatar>
-            <v-list-tile-avatar>
+            <!-- <v-list-tile-avatar>
               <img src="http://www.amatea.org/img/logo_amatea.png" />
-            </v-list-tile-avatar>
+            </v-list-tile-avatar> -->
             <v-list-tile-content>
               <v-list-tile-title>Amatea</v-list-tile-title>
             </v-list-tile-content>
@@ -40,6 +40,20 @@
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
+       
+        
+
+         
+            <v-flex class="text-xs-center" color="white">
+              <a href="http://facebook.com/amateaorg" target="_blank"><v-icon class="ico" >fa-facebook-official</v-icon></a>
+              <a href="http://instagram.com/amateaorg" target="_blank"><v-icon class="ico">fa-instagram</v-icon></a>
+              <a href="http://youtube.com/comunicateatv" target="_blank"><v-icon class="ico">fa-youtube</v-icon></a>
+            </v-flex>
+         
+       
+           
+          
+        </v-list>
       </v-navigation-drawer>
     </v-layout>
   </div>
@@ -51,11 +65,11 @@
       return {
        drawer: null,
         items: [
-          { title: 'Inicio', icon: 'dashboard', click: '/' },
-          { title: 'Somos', icon: 'dashboard', click: '/are' },
-          { title: 'Servicios', icon: 'question_answer', click: '/services' },
-          { title: 'Hacemos', icon: 'question_answer', click: '/make' },
-          { title: 'Contactenos', icon: 'question_answer', click: '/contact' }
+          { title: 'Inicio', icon: 'home', click: '/' },
+          { title: 'Somos', icon: 'group', click: '/are' },
+          { title: 'Servicios', icon: 'spa', click: '/services' },
+          { title: 'Hacemos', icon: 'filter_vintage', click: '/make' },
+          { title: 'Contactenos', icon: 'public', click: '/contact' }
          ]
       }
     }
@@ -70,6 +84,9 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 130px;
+  }
+  .ico {
+    margin: 10px;
   }
 </style>
 

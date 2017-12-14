@@ -22,7 +22,7 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 </style>
 
