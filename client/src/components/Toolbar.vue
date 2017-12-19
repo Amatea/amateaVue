@@ -66,9 +66,10 @@
        drawer: null,
         items: [
           { title: 'Inicio', icon: 'home', click: '/' },
-          { title: 'Somos', icon: 'group', click: '/are' },
+          { title: 'Somos', icon: 'group', click: '/weare' },
           { title: 'Servicios', icon: 'spa', click: '/services' },
           { title: 'Hacemos', icon: 'filter_vintage', click: '/make' },
+          { title: 'Blog', icon: 'filter_vintage', click: '/blog' },
           { title: 'Contactenos', icon: 'public', click: '/contact' }
          ]
       }
