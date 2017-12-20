@@ -2,12 +2,11 @@ var express = require('express');
 var moment = require('moment');
 var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport();
-
-var mailrouter = express.Router();
+var router = express.Router();
 
 //nodemailer 2
 
-mailrouter.route('/mail_contacto')
+router.route('/mail_contacto')
   .post(function(req, res) {
 
     var transporter = nodemailer.createTransport({
@@ -26,8 +25,8 @@ mailrouter.route('/mail_contacto')
        html: (
          'Se recibio un mensaje de: ' + data.nombre + data.apellido + '<br>' + 
          'Organizacion: ' + data.organizacion + '<br>' + 
-         'email: '  + data.email  + '</b>' +
-         'Comentario: ' + data.comentario + '\n'+ '</b>'+ 
+         'email: '  + data.email  + '</br>' +
+         'Comentario: ' + data.comentario + '\n'+ '</br>'+ 
          'Fecha: ' + date 
         ) 
     };
@@ -83,3 +82,5 @@ mailrouter.route('/mail_contacto')
  module.exports = mailrouter;
 
  */
+
+module.exports = router;
