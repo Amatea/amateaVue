@@ -30,15 +30,22 @@
 <style lang="scss" scoped>
   .partner {
     margin-top: 80px;
+    margin-bottom: 80px;
   }
   .logos {
     margin-top: 70px;
+  }
+
+  h1 {
+    font-weight: 300;
+    margin-bottom: 30px;
   }
 
   .title {
     color: #21BFD5;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: 300;
   }
   
   .recamier {
