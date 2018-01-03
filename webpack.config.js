@@ -35,8 +35,8 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-    
+        use: [{ loader: 'babel-loader', options: { cacheDirectory: true } }],
+        exclude: /node_modules(?!\/webpack-dev-server)/,
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
