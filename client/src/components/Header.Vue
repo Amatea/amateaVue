@@ -1,6 +1,6 @@
 <template>
   <div>
-    <video poster="http://www.amatea.org/img/home.jpg" id="bgvid" playsinline autoplay muted loop>
+    <video poster="public/home.jpg" id="bgvid" playsinline autoplay muted loop>
       <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
       <source src="public/video.mp4" type="video/mp4">
     </video>
