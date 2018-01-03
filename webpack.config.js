@@ -38,12 +38,11 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         use: {
             loader: "babel-loader",
+            query: {
+              presets: ["es2015", "es2016"]
+              
+            },
         }
-      },
-      {
-        "presets": [
-            ["es2015", "es2016"]
-        ]
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
