@@ -33,11 +33,11 @@ module.exports = {
           // other vue-loader options go here
         }
       },
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
+      // {
+      //   test: /\.js$/,
+      //   loader: 'babel-loader',
     
-      },
+      // },
       {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
@@ -82,12 +82,12 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
-      compress: {
-        warnings: false
-      }
-    }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   sourceMap: true,
+    //   compress: {
+    //     warnings: false
+    //   }
+    // }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
     })
