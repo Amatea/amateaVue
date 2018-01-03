@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -35,14 +34,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        exclude: /(node_modules|bower_components)/,
-        use: {
-            loader: "babel-loader",
-            query: {
-              presets: ["es2015", "es2016"]
-              
-            },
-        }
+        loader: 'babel-loader',
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
