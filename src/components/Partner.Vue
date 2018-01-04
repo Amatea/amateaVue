@@ -49,14 +49,14 @@
   }
   
   .recamier {
-    background-image: url(http://amatea.org/img/marcas/recamierbw.png);
+    background-image: url(/public/marcas/recamierbw.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     width: 153px;
     height: 93px;
 }
   .bancoomeva {
-    background-image: url(/public/bancoo.png);
+    background-image: url(/public/marcas/bancoo.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     width: 153px;
@@ -64,14 +64,14 @@
     margin-top: -20px;
 }
   .jnj {
-      background-image: url(http://amatea.org/img/marcas/jnjbw.png);
+      background-image: url(/public/marcas/jnjbw.png);
       background-size: 60% auto;
       background-repeat: no-repeat;
       width: 153px;
       height: 93px;
   }
   .sidoc {
-    background-image: url(http://amatea.org/img/marcas/sidocbw.png);
+    background-image: url(/public/marcas/sidocbw.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     width: 153px;
@@ -79,7 +79,7 @@
     margin-top: -20px;
 }
   .wwf {
-    background-image: url(http://amatea.org/img/marcas/wwfbw.png);
+    background-image: url(/public/marcas/wwfbw.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     width: 153px;
@@ -87,7 +87,7 @@
     margin-top: -40px;
 }
   .natura {
-    background-image: url(http://amatea.org/img/marcas/naturabw.png);
+    background-image: url(/public/marcas/naturabw.png);
     background-size: 50% auto;
     background-repeat: no-repeat;
     width: 153px;
@@ -95,7 +95,7 @@
     margin-top: -50px;
 }
   .cvc {
-    background-image: url(http://amatea.org/img/marcas/cvcbw.png);
+    background-image: url(/public/marcas/cvcbw.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     width: 153px;
@@ -103,7 +103,7 @@
     margin-top: -40px;
 }
   .parques {
-    background-image: url(http://amatea.org/img/marcas/paisbw.png);
+    background-image: url(/public/marcas/paisbw.png);
     background-size: 60% auto;
     background-repeat: no-repeat;
     width: 153px;
