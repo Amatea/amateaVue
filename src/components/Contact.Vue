@@ -37,7 +37,7 @@
             ></v-text-field>
 
             <v-btn
-              v-on:click="send(); go();"
+              v-on:click="send()"
               :disabled="!valid"
             >
               Enviar
@@ -117,9 +117,9 @@ export default {
         })
       }
     },
-    go() {
-      this.$router.push('/') 
-    },
+    // go() {
+    //   this.$router.push('/') 
+    // },
     clear () {
         this.$refs.form.reset()
       }
