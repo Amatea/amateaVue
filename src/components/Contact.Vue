@@ -105,7 +105,7 @@ export default {
   methods: {
     send() {
       if (this.$refs.form.validate()) {
-        axios.post('http://dendros.amatea.org/api/mail_contacto', { 
+        axios.post('http://localhost:3001/api/mail_contacto', { 
             nombre: this.user.nombre,
             apellido: this.user.apellido,
             organizacion: this.user.organizacion,
