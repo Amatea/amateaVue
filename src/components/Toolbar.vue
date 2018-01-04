@@ -6,7 +6,6 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-       <router-link to="/contact">Go to Foo</router-link>
       <v-toolbar-items v-for="item in items" :key="item.title"  class="hidden-xs-only">
         <v-btn color="accent" :href='item.click' flat>{{ item.title }}</v-btn>
       </v-toolbar-items>
