@@ -7,17 +7,12 @@ import Home from '../components/Home'
 
 Vue.use(Router)
 
-const router = new Router({
+export default new Router({
   routes: [
     {
       path: '/',
       name: 'home',
       component: Home
-    },
-    {
-      path: '/weare',
-      name: 'Somos',
-      component: Weare
     },
     {
       path: '/services',
@@ -36,12 +31,12 @@ const router = new Router({
     },
     {
       path: '/somoshuella',
-      name: 'somos',
+      name: 'Somos',
       component: SomosHuella
     },
     {
       path: '*',
-      redirect: 'make'
+      redirect: 'songs'
     }
   ]
 })
