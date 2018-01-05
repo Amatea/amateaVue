@@ -4,10 +4,12 @@ import Services from '../components/Services'
 import Make from '../components/Make'
 import Contact from '../components/Contact'
 import Home from '../components/Home'
+import SomosHuella from '../components/SomosHuella/SomosHuella'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
