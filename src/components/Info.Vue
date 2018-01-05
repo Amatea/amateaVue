@@ -29,7 +29,7 @@
       </v-layout>
       <v-layout row wrap>
         <v-flex class="card-info" xs12 sm4>
-          <img class="logo" src="public/sincro.png" alt="sincro">
+          <img class="logo" src="public/bosquesvolar.png" alt="sincro">
           <h1>Bosques para Volar</h1>
           <h2 color="secondary">Sincronízate con la Naturaleza</h2>
           <p>Conservación + Avistamiento de Aves</p>
@@ -43,7 +43,7 @@
         </v-flex>
 
         <v-flex class="card-info" xs12 sm4>
-          <img class="logo" src="public/amapp.png" alt="amapp">
+          <img class="logo" src="public/vivero.png" alt="amapp">
           <h1 color="teal">Vivero</h1>
           <h2 color="teal">Plantas Forestales y Ornamentales</h2>
           <p>Proyectos + enriquecimiento forestal</p>
