@@ -11,7 +11,7 @@
                     <h3>programa de Sustentabilidad empresarial</h3>
                     <p class="subtitle">Medimos + Divulgamos + Compensamos</p>
                     <div class="text-xs-center buttom">
-                        <v-btn href="/somoshuella" round color="primary">Enterate</v-btn>
+                        <v-btn href="/contact" round color="primary">Enterate</v-btn>
                     </div>
                 </v-flex>
             
