@@ -5,7 +5,7 @@
         <img class="logo" src="public/logo.png" alt="logo amatea">
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+      <v-toolbar-side-icon class="hidden-sm-and-up" @click.stop="drawer = !drawer" dark></v-toolbar-side-icon>
       <v-toolbar-items v-for="item in items" :key="item.title"  class="hidden-xs-only">
         <v-btn color="accent" :href='item.click' flat>{{ item.title }}</v-btn>
       </v-toolbar-items>
