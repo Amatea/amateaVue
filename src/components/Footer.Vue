@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="pa-3" color="teal lighten-2">
+  <v-footer class="pa-3 footer">
     <div>
       <a href="http://facebook.com/amateaorg" target="_blank"><v-icon class="ico">fa-facebook-official</v-icon></a>
       <a href="http://instagram.com/amateaorg" target="_blank"><v-icon class="ico">fa-instagram</v-icon></a>
@@ -21,6 +21,10 @@
 </script>
 
 <style lang="scss" scoped>
+@import '../main.scss';
+  .footer {
+    background-color: $secundary;
+  }
   a {
     text-decoration: none;
   }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-toolbar color="teal lighten-2">
+    <v-toolbar class="toolbar">
       <v-toolbar-title>
         <img class="logo" src="public/logo.png" alt="logo amatea">
       </v-toolbar-title>
@@ -78,6 +78,10 @@
 </script>
 
 <style lang="scss" scoped>
+@import '../main.scss';
+  .toolbar {
+    background-color: $secundary;
+  }
   a {
     text-decoration: none;
   }

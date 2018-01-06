@@ -2,7 +2,7 @@
   <div class="partner">
     <div class="text-xs-center title">
       <h1>Tu tambien puedes hacer parte</h1>
-      <p>vincúlate</p>
+      <v-btn href="/contact" round color="primary">Vinculate</v-btn>
     </div>
     <v-container grid-list-md text-xs-center logos hidden-xs-only>
       <v-layout row wrap >
