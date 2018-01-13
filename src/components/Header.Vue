@@ -2,7 +2,7 @@
   <div>
     <video poster="public/home.jpg" id="bgvid" playsinline autoplay muted loop>
       <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-      <source src="public/video.mp4" type="video/mp4">
+      <source src="https://amatea.nyc3.digitaloceanspaces.com/assets/videos/video.mp4" type="video/mp4">
     </video>
   </div>
 </template>
