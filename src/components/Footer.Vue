@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="pa-3 footer">
+  <v-footer class="pa-4 footer">
     <div>
       <a href="http://facebook.com/amateaorg" target="_blank"><v-icon class="ico">fa-facebook-official</v-icon></a>
       <a href="http://instagram.com/amateaorg" target="_blank"><v-icon class="ico">fa-instagram</v-icon></a>
